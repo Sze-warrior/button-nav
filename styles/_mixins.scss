@@ -1,0 +1,16 @@
+//The file for future mixins
+
+
+//Transition mixin
+@mixin transition($duration) {
+    -moz-transition:    $duration;
+    -o-transition:      $duration;
+    -webkit-transition: $duration;
+    transition:         $duration;
+}
+
+@mixin rounded($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
