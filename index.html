@@ -10,19 +10,46 @@
 </head>
 	<body>	
 
-	<main id="top" class="container">
+	<main class="container">
 		<div class="row">
 		   <div class="col-12">
 		   	<ul class="btn-nav-container">
-		   		<li class="btn-nav active">Button </li>
-		   		<li class="btn-nav">Button </li>
+		   		<a class="btn-nav active" href="#test1">
+		   			<li>Button </li>
+		   		</a>
+		   		<a class="btn-nav" href="#test2">
+		   			<li>Button </li>
+		   		</a>		   		
 		   		<li class="btn-nav">Button </li>
 		   	</ul>
-		   </div>										
+		   </div>
+
+		   <div class="content">
+		   	<div id="test1" class="col-12 hidden">
+		   		<h2>Test 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget nisi non dui viverra ullamcorper. Suspendisse nibh sapien, tempus sed ex in, bibendum tristique nibh. Cras ut tempus odio. Suspendisse fringilla, nisi id egestas pellentesque, orci ex rhoncus lorem, vel consectetur mauris purus eu odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam dapibus leo finibus lectus posuere, sit amet eleifend magna molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis venenatis gravida diam, at pulvinar ex malesuada vitae. Duis feugiat nunc in tempor tincidunt. Phasellus venenatis tempus magna, eu aliquam lectus mattis eget. Vestibulum eget libero dui. Nullam quis tellus libero. Donec quis eros ex. Fusce egestas, orci ac pretium pretium, ante tortor vestibulum risus, sit amet posuere felis tortor sed neque. Pellentesque dapibus placerat diam, vel accumsan tortor pellentesque malesuada. Cras sit amet diam in nisi vulputate bibendum quis quis nibh.
+
+				Phasellus consequat euismod felis in dignissim. Quisque nec enim a mauris vulputate pretium. Quisque purus enim, tristique euismod nulla eget, luctus consequat dui. Nulla sapien mi, pharetra id malesuada ac, malesuada ac augue. Maecenas commodo ligula at ex sollicitudin bibendum. Aenean ornare, mauris sed vulputate posuere, ante sem sagittis est, a maximus odio ligula vel tortor. Nulla facilisi. Cras ut odio at ex malesuada auctor eget eget quam. Nam venenatis lacus et turpis convallis, vel rutrum orci consectetur. Pellentesque et diam sollicitudin quam porta euismod sed et est. Duis risus quam, hendrerit vitae arcu non, semper pulvinar justo.
+
+				Praesent ornare turpis mauris. In quis nunc elementum, imperdiet purus ac, egestas nunc. Phasellus nisi elit, dictum vitae auctor faucibus, efficitur eget nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras tellus lorem, tempor id nisl sed, fringilla euismod eros. Maecenas ac consequat lorem, sit amet fermentum ex. Maecenas mi massa, ullamcorper ut nunc nec, cursus pellentesque risus. Mauris bibendum risus cursus lacus consectetur, ut egestas turpis tincidunt. Nullam sit amet tempor leo, a ullamcorper tortor. Proin vitae risus erat.</p>		
+			</div>
+
+		   	<div id="test2" class="col-12 hidden">
+		   		<h2>Test 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget nisi non dui viverra ullamcorper. Suspendisse nibh sapien, tempus sed ex in, bibendum tristique nibh. Cras ut tempus odio. Suspendisse fringilla, nisi id egestas pellentesque, orci ex rhoncus lorem, vel consectetur mauris purus eu odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam dapibus leo finibus lectus posuere, sit amet eleifend magna molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis venenatis gravida diam, at pulvinar ex malesuada vitae. Duis feugiat nunc in tempor tincidunt. Phasellus venenatis tempus magna, eu aliquam lectus mattis eget. Vestibulum eget libero dui. Nullam quis tellus libero. Donec quis eros ex. Fusce egestas, orci ac pretium pretium, ante tortor vestibulum risus, sit amet posuere felis tortor sed neque. Pellentesque dapibus placerat diam, vel accumsan tortor pellentesque malesuada. Cras sit amet diam in nisi vulputate bibendum quis quis nibh.
+
+				Phasellus consequat euismod felis in dignissim. Quisque nec enim a mauris vulputate pretium. Quisque purus enim, tristique euismod nulla eget, luctus consequat dui. Nulla sapien mi, pharetra id malesuada ac, malesuada ac augue. Maecenas commodo ligula at ex sollicitudin bibendum. Aenean ornare, mauris sed vulputate posuere, ante sem sagittis est, a maximus odio ligula vel tortor. Nulla facilisi. Cras ut odio at ex malesuada auctor eget eget quam. Nam venenatis lacus et turpis convallis, vel rutrum orci consectetur. Pellentesque et diam sollicitudin quam porta euismod sed et est. Duis risus quam, hendrerit vitae arcu non, semper pulvinar justo.
+
+				Praesent ornare turpis mauris. In quis nunc elementum, imperdiet purus ac, egestas nunc. Phasellus nisi elit, dictum vitae auctor faucibus, efficitur eget nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras tellus lorem, tempor id nisl sed, fringilla euismod eros. Maecenas ac consequat lorem, sit amet fermentum ex. Maecenas mi massa, ullamcorper ut nunc nec, cursus pellentesque risus. Mauris bibendum risus cursus lacus consectetur, ut egestas turpis tincidunt. Nullam sit amet tempor leo, a ullamcorper tortor. Proin vitae risus erat.</p>		
+			</div>
+		</div>
 		</div>										
 	</main>   
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>   
+   <script src="scripts/velocity.js"></script>
+
+   <script src="scripts/velocity-ui-pack.js"></script>
 	<script src="scripts/button-active.js"></script>
 	<!--
 	<div id="btn-top" class="btn-default">Back to top</div>
