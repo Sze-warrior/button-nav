@@ -7,20 +7,21 @@ html, body {
 }
 
 p{
-    color: $red;
-    text-align: left;
+    line-height: 24px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: $blue;
 }
 
 .container {
 	max-width: $max-width;
 	min-width: $min-width;
 	margin: 0 auto;
-
-    @media screen and (max-width:$mobile){
-        padding-top: 100px;
-    }
+    padding: 0;
 }
 
 .row{
@@ -30,11 +31,11 @@ p{
 
 }
 
-.col-12{
-	width: 100%;
-}
-
-.content{
+.btn-nav-content{
+    margin-top: 25px;    
+    margin-right: 10px;
+    margin-left: 10px;
+    min-height: 150px;
 
     .hidden{
         display: none;
@@ -42,5 +43,9 @@ p{
 
     .visible{
         display: block;
+    }
+
+    @media screen and (max-width: $mobile){
+        min-height: 100px;
     }
 }
