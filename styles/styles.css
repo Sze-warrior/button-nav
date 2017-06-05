@@ -32,8 +32,11 @@ p {
   width: 100%;
 }
 
-.hidden {
+.content .hidden {
   display: none;
+}
+.content .visible {
+  display: block;
 }
 
 .btn-default {
@@ -92,10 +95,6 @@ p {
 .btn-nav:last-child {
   border-right: 0;
 }
-.btn-nav.active {
-  background-color: #446CB3;
-  color: white;
-}
 .btn-nav:hover {
   cursor: pointer;
   color: white;
@@ -105,4 +104,9 @@ p {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-right: #2f4b7c;
+}
+
+.btn-active {
+  background-color: #446CB3;
+  color: white;
 }

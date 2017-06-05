@@ -4,24 +4,25 @@ $(document).ready(function(){
 	var buttonContainerChildren = buttonContainer.children();
    	var target = $(this).attr('href');
 
-	function addActive(){
-		buttonContainerChildren.removeClass("active");
-		$(this).addClass("active");
+
+	function addActive(e){
+		buttonContainerChildren.removeClass("btn-active");
+		$(this).addClass("btn-active");
 	};
 
 	function FlipXIn(event){
 		event.preventDefault();
 		event.stopPropagation();
 
-       var target = $(this).attr('href');
-        $(target).velocity('transition.slideDownIn', {
-            duration: 500
-        });
-        $(target).velocity('transition.slideUpOut', {
-            duration: 500, delay: 1000
-        });
+       	var target = $(this).attr('href');
 
-	}
+       	$(".content").children().css("display", "none");
+
+       	$(target).addClass("visible");
+        $(target).velocity('transition.fadeIn', {
+            duration: 200
+        });
+	};
 
 	buttonContainerChildren.on("click", addActive);
 	$("a.btn-nav").on("click", FlipXIn);
