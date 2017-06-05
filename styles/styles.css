@@ -28,22 +28,20 @@ a {
   float: left;
 }
 
+.btns-container {
+  min-height: 250px;
+}
+
 .btn-nav-content {
   margin-top: 25px;
   margin-right: 10px;
   margin-left: 10px;
-  min-height: 150px;
 }
 .btn-nav-content .hidden {
   display: none;
 }
 .btn-nav-content .visible {
   display: block;
-}
-@media screen and (max-width: 767px) {
-  .btn-nav-content {
-    min-height: 100px;
-  }
 }
 
 .btn-nav-container {

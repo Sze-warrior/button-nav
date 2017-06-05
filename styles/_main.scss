@@ -31,11 +31,14 @@ a{
 
 }
 
+.btns-container{
+    min-height: 250px;
+}
+
 .btn-nav-content{
     margin-top: 25px;    
     margin-right: 10px;
     margin-left: 10px;
-    min-height: 150px;
 
     .hidden{
         display: none;
@@ -43,9 +46,5 @@ a{
 
     .visible{
         display: block;
-    }
-
-    @media screen and (max-width: $mobile){
-        min-height: 100px;
     }
 }
