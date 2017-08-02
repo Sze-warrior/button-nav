@@ -23,6 +23,10 @@
 	font-weight: 300;
 	@include transition(0.2s);
 
+	.btn-switch-1, .btn-switch-2, .btn-switch-3{
+
+	}
+
 	&:last-child{
 		border-right: 0;
 	}
@@ -45,7 +49,7 @@
 @media screen and (max-width: $mobile){
 	.btn-nav-container{
 		width: 92%;
-		margin: 0 auto;
+		margin: -50px auto;
 	}
 }
 
