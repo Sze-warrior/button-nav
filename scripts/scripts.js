@@ -6,10 +6,10 @@ if(btnNavContainer){
 	function removeActive(event){
 
 		var target = event.currentTarget;
-		var targetParent = target.parentNode.querySelectorAll(".btn-nav");
+		var targetAll = target.parentNode.querySelectorAll(".btn-nav");
 
-		for(var i = 0; i < targetParent.length; i++){
-			targetParent[i].classList.remove("btn-active");
+		for(var i = 0; i < targetAll.length; i++){
+			targetAll[i].classList.remove("btn-active");
 			target.classList.add("btn-active");
 		}
 	};
