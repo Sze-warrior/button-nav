@@ -6,7 +6,7 @@ if(btnNavContainer){
 	function removeActive(event){
 
 		var target = event.currentTarget;
-		var targetParent = target.parentNode.children;
+		var targetParent = target.parentNode.querySelectorAll(".btn-nav");
 
 		for(var i = 0; i < targetParent.length; i++){
 			targetParent[i].classList.remove("btn-active");
