@@ -89,8 +89,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .btn-nav-container {
-    width: 92%;
-    margin: -50px auto; } }
+    width: 92%; } }
 
 .centered {
   text-align: center; }
